@@ -20,7 +20,7 @@ const menuTemplateSource = `
 
       <button class="card__button button">
         <i class="material-icons button__icon">shopping_cart</i>
-        В корзину
+        Add to сart
       </button>
     </article>
   </li>
