@@ -45,10 +45,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       themeSwitchToggle.checked = true;
     }
 
-    await fetchAndRenderMenu(savedLanguage === 'en' ? '../menu-en.json' : '../menu.json');
+    await fetchAndRenderMenu(savedLanguage === 'en' ? './json/menu-en.json' : './json/menu.json');
 
     themeSwitchToggle.addEventListener('change', async (event) => {
-      const newMenuUrl = event.target.checked ? '../menu-en.json' : '../menu.json';
+      const newMenuUrl = event.target.checked ? './json/menu-en.json' : './json/menu.json';
       await fetchAndRenderMenu(newMenuUrl);
 
       localStorage.setItem('language', event.target.checked ? 'en' : 'ru');
