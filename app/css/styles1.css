@@ -28,7 +28,7 @@ body.dark-theme {
 
 .toolbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 16px 24px;
 }
 
@@ -36,6 +36,9 @@ body.dark-theme {
 .theme-switch {
   display: flex;
   align-items: center;
+}
+.language-icon {
+  padding: 0px 10px;
 }
 
 .theme-switch__icon {
@@ -67,6 +70,7 @@ body.dark-theme {
   height: 0;
   width: 0;
   pointer-events: none;
+  
 }
 
 .theme-switch__track {
@@ -81,6 +85,7 @@ body.dark-theme {
   border-radius: inherit;
   z-index: 1;
   cursor: pointer;
+  border: 2px solid #d3d3d4;
 }
 
 .theme-switch__marker {
@@ -98,6 +103,7 @@ body.dark-theme {
 
 .theme-switch__toggle:checked + .theme-switch__track {
   background-color: #d3d3d4;
+  
 }
 
 .theme-switch__toggle:checked ~ .theme-switch__marker {

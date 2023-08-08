@@ -1,0 +1,114 @@
+[
+  {
+    "id": "XWaQXcbk0",
+    "name": "Baked Potato in Jacket",
+    "description": "Aromatic, hearty, sizzling homemade potatoes stuffed with sour cream and bacon filling, is a very simple and very impressive way to feed a large number of people, using almost no effort or time for cooking. Ordinary potatoes can be replaced with sweet potatoes, and you can add corn or sweet red pepper to the filling, for example.",
+    "image": "https://cdn.pixabay.com/photo/2017/03/19/18/10/baked-potatoes-2157200_1280.jpg",
+    "price": 100,
+    "ingredients": [
+      "Potatoes",
+      "Garlic",
+      "Sour Cream",
+      "Bacon",
+      "Hard Cheese",
+      "Green Onion"
+    ]
+  },
+  {
+    "id": "pkXzyRp1P",
+    "name": "Tomato Maghrebi Soup",
+    "description": "Tomato Maghrebi soup is especially popular in Morocco and Tunisia. It is very easy to prepare and is light by itself - based on tomatoes and chicken broth. The soup contains only essential spices, honey, and lemon, which together give that distinctive Eastern flavor. The taste of the soup entirely depends on the quality of tomatoes. The dish is complemented with fresh cilantro and separate lemon wedges.",
+    "image": "https://cdn.pixabay.com/photo/2016/06/01/21/40/soup-1429793_1280.jpg",
+    "price": 150,
+    "ingredients": [
+      "Tomatoes",
+      "Chicken Broth",
+      "Honey",
+      "Parsley",
+      "Cilantro",
+      "Paprika"
+    ]
+  },
+  {
+    "id": "QMom9q4Ku",
+    "name": "Pumpkin Cream Soup",
+    "description": "The portrait of this orange brew decorates the cover of the book \"La Cuisine du Marché\" by Paul Bocuse. Bocuse, who invented the so-called new cuisine, considered pumpkin one of the foundations of this culinary world order, and pumpkin soup is a sort of fruit water of gastronomy.",
+    "image": "https://cdn.pixabay.com/photo/2016/09/21/20/18/pumpkin-soup-1685574_1280.jpg",
+    "price": 100,
+    "ingredients": ["Pumpkin", "Parsley", "Cream", "Brandy", "Chicken Broth"]
+  },
+  {
+    "id": "k2k0UrjZG",
+    "name": "Red Bean Salad with Cottage Cheese",
+    "description": "Tuscan salad, staying in the colors of the Italian flag. Just a few spoonfuls are enough to create a pleasant heaviness in the stomach. It's a very useful thing in the morning when it's difficult to consume large amounts of biomass, but you still want to eat.",
+    "image": "https://cdn.pixabay.com/photo/2015/11/29/11/35/mexican-mix-1068590_1280.jpg",
+    "price": 150,
+    "ingredients": [
+      "Beans",
+      "Salt",
+      "Garlic",
+      "Olive Oil",
+      "Cottage Cheese",
+      "Red Onion"
+    ]
+  },
+  {
+    "id": "j2k8U1jZd",
+    "name": "Classic Greek Salad",
+    "description": "This recipe comes from an old culinary book brought from Greece. The secret of the salad is fresh vegetables and good feta cheese. The salad uses only olive oil, and spices such as oregano and basil are the hallmark of Greek cuisine.",
+    "image": "https://cdn.pixabay.com/photo/2017/03/25/10/21/salad-2173214_1280.jpg",
+    "price": 350,
+    "ingredients": [
+      "Olive Oil",
+      "Lemon Juice",
+      "Garlic",
+      "Tomatoes",
+      "Red Onion",
+      "Feta Cheese",
+      "Olives"
+    ]
+  },
+  {
+    "id": "X2aQ7cvkd",
+    "name": "Blueberry Muffins with Nutmeg",
+    "description": "A cult berry that has been produced year-round, combined with fluffy dough, is an absolutely fail-safe option. Blueberry muffins became a popular dessert in England and America, although their origin is French. Even these little sweet cakes, as we know them now, were originally conceived as regular bread and were neutral in taste.",
+    "image": "https://cdn.pixabay.com/photo/2016/07/06/23/22/muffin-1501614_1280.jpg",
+    "price": 170,
+    "ingredients": [
+      "Butter",
+      "Wheat Flour",
+      "Blueberries",
+      "Vanilla Extract",
+      "Nutmeg"
+    ]
+  },
+  {
+    "id": "nk3zy1pf8",
+    "name": "Tatar-style Azu",
+    "description": "One of the few dishes that received its own sales slicing in Soviet culinary tradition. And still, in culinary shops and supermarkets, you can find beef, which is sliced like azu. There are still disputes about the dish itself, like whether to use beef or lamb, clarified or regular butter, to stew in a cauldron or a thick-bottomed pan. There can be many variations of this dish, but its core is always the same - julienned meat, potatoes, and tomato sauce.",
+    "image": "https://cdn.pixabay.com/photo/2016/07/28/19/53/food-1549260_1280.jpg",
+    "price": 270,
+    "ingredients": [
+      "Beef",
+      "Pickles",
+      "Potatoes",
+      "Meat Broth",
+      "Garlic"
+    ]
+  },
+  {
+    "id": "b7k2U13fd",
+    "name": "Fried Rice with Egg Chinese-style",
+    "description": "Fried rice is a fairly common ingredient in East Asian cuisine - it can actually be made from leftovers from last night's dinner. Only well-cooled, pre-cooked rice, ideally left in the refrigerator overnight, won't turn into a porridge-like mass and won't turn the contents of the pan into an unwieldy shapeless lump when added to a hot wok.",
+    "image": "https://cdn.pixabay.com/photo/2016/10/23/09/37/fried-rice-1762493_1280.jpg",
+    "price": 240,
+    "ingredients": [
+      "Jasmine Rice",
+      "Mini Zucchini",
+      "Grated Ginger",
+      "Shiitake Mushrooms",
+      "Soy Sauce",
+      "Sesame Oil"
+    ]
+  }
+]

@@ -13,6 +13,19 @@
   </head>
   <body>
     <div class="toolbar">
+      <!-- Разметка переключателя language -->
+      <div class="theme-switch">
+        <p class="language-icon">RU</p>
+        <div class="theme-switch__control">
+          <input class="theme-switch__toggle" type="checkbox" name="language" id="language-switch-toggle"
+            aria-label="Переключить между тёмной и светлой темой" />
+          <label aria-hidden="true" class="theme-switch__track" for="language-switch-toggle">
+          </label>
+          <div aria-hidden="true" class="theme-switch__marker"></div>
+        </div>
+      
+        <p class="language-icon">EN</p>
+      </div>
       <!-- Разметка переключателя темы -->
       <div class="theme-switch">
         <svg class="theme-switch__icon" role="img" aria-label="Иконка солнца">
@@ -41,6 +54,10 @@
         </svg>
       </div>
     </div>
+    <!-- <div class="toolbar">
+      
+      
+    </div> -->
 
     <!-- В этот список рендери разметку меню -->
     <ul class="menu js-menu"></ul>

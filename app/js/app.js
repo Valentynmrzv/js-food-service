@@ -6,7 +6,7 @@ const menuTemplateSource = `
         <h2 class="card__name">{{ name }}</h2>
         <p class="card__price">
           <i class="material-icons">monetization_on</i>
-          {{ price }} кредитов
+          {{ price }}
         </p>
 
         <p class="card__descr">{{ description }}</p>
@@ -28,15 +28,33 @@ const menuTemplateSource = `
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    const response = await fetch('../menu.json'); // Загрузка файла JSON
-    const menuData = await response.json(); // Преобразование в объект JavaScript
+    const themeSwitchToggle = document.querySelector('#language-switch-toggle');
+    const menuContainer = document.querySelector('.js-menu');
 
     const menuTemplate = Handlebars.compile(menuTemplateSource);
-    const menuHtml = menuData.map(item => menuTemplate(item)).join('');
 
-    const menuContainer = document.querySelector('.js-menu');
-    menuContainer.innerHTML = menuHtml;
+    const fetchAndRenderMenu = async (menuUrl) => {
+      const response = await fetch(menuUrl);
+      const menuData = await response.json();
+      const menuHtml = menuData.map(item => menuTemplate(item)).join('');
+      menuContainer.innerHTML = menuHtml;
+    };
+
+    const savedLanguage = localStorage.getItem('language');
+    if (savedLanguage === 'en') {
+      themeSwitchToggle.checked = true;
+    }
+
+    await fetchAndRenderMenu(savedLanguage === 'en' ? '../menu-en.json' : '../menu.json');
+
+    themeSwitchToggle.addEventListener('change', async (event) => {
+      const newMenuUrl = event.target.checked ? '../menu-en.json' : '../menu.json';
+      await fetchAndRenderMenu(newMenuUrl);
+
+      localStorage.setItem('language', event.target.checked ? 'en' : 'ru');
+    });
   } catch (error) {
     console.error('Error loading menu data:', error);
   }
 });
+
