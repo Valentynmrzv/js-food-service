@@ -117,9 +117,9 @@ const sprite = () => {
 // =========================================== JS scripts =========================================== //
 const scripts = () => {
   return src([
-    'node_modules/swiper/swiper-bundle.min.js',
+    // 'node_modules/swiper/swiper-bundle.min.js',
     'app/js/*.js',
-    'app/js/main.js',
+    '!app/js/main.js',
     '!app/js/main.min.js'
   ])
     .pipe(concat('main.min.js'))
