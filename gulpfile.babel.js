@@ -184,3 +184,6 @@ exports.deploy = deploy;
 
 exports.build = series(cleanDist, building);
 exports.default = parallel(images, sprite, styles, scripts, pages, watching);
+
+
+// =============================================================================
